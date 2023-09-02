@@ -1,0 +1,14 @@
+.switch__serviceSatisfaction {
+    @include switchToggleSizeColor("md", green, red);
+}
+
+.switch-success {
+    @include switchToggleSizeColor("md", orangered, green);
+}
+.switch-primary {
+    @include switchToggleSizeColor("md");
+}
+
+.switch-deviated {
+    @include switchToggleSizeColor("md", red);
+}
